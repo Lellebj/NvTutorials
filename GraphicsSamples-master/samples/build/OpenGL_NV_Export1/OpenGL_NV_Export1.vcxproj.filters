@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tutorial\OpenGL_NV_Export1\MyAgNv_App.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tutorial\OpenGL_NV_Export1\BindlessApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tutorial\OpenGL_NV_Export1\Mesh.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tutorial\OpenGL_NV_Export1\BindlessApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tutorial\OpenGL_NV_Export1\Mesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tutorial\OpenGL_NV_Export1\MyAgNv_App.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\tutorial\OpenGL_NV_Export1\assets\shaders\simple_fragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\tutorial\OpenGL_NV_Export1\assets\shaders\simple_vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
